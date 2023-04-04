@@ -25,7 +25,7 @@ if docs is None:
         owner =                  "apradhana",
         repo =                   "openvdb",
         filter_directories =     (["openvdb", "openvdb_cmd"], GithubRepositoryReader.FilterType.INCLUDE),
-        filter_file_extensions = ([".py"], GithubRepositoryReader.FilterType.INCLUDE),
+        filter_file_extensions = ([".h", ".cc", ".cu"], GithubRepositoryReader.FilterType.INCLUDE),
         verbose =                True,
         concurrent_requests =    10,
     )
